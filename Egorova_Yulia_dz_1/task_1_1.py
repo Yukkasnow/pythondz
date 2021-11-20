@@ -1,4 +1,5 @@
 duration=95550
+
 if duration<60:
     print(f'{duration} сек')
 if 60<duration<=3600:
