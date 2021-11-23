@@ -16,6 +16,6 @@ if duration>86400:
     hour=duration%86400//3600
     min=duration%3600//60
     sec=duration%60
-    print(dd, hour, min, sec)
+    print(f'{dd} д {hour} ч {min} мин {sec} сек')
 
 
