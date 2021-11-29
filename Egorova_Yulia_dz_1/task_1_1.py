@@ -1,12 +1,12 @@
-duration=95550
+duration=int(input(' Введите продолжительность времени в секудах'))
 
-if duration<60:
+if duration<=60:
     print(f'{duration} сек')
-if 60<duration<=3600:
+if 60<=duration<=3600:
     min=duration//60
     sec=duration%60
     print(f'{min} мин {sec} сек')
-if 3600<duration<=86400:
+if 3600<=duration<=86400:
     hour=duration//3600
     min=duration%3600//60
     sec=duration%60
