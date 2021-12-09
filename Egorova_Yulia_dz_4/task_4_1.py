@@ -14,6 +14,6 @@ def currency_rates(char_code):
         print('Код валюты введен неверно')
     else:
         price = currency_dict[char_code]
-        print(f'{char_code} = {price}')
+        return (f'{char_code} = {price}')
 
-currency_rates(input('Введите код валюты '))
+print(currency_rates(input('Введите код валюты ')))
