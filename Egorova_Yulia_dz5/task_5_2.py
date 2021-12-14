@@ -1,0 +1,5 @@
+number=int(input('Ввседите длину последовательности '))
+nums_gen=(num for num in range(1,number+1,2))
+print(next(nums_gen))
+print(next(nums_gen))
+print(next(nums_gen))
