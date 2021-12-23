@@ -1,6 +1,6 @@
 import os
 size_dict={ }
-for root, dirs, files in os.walk('some_data'):
+for root, dirs, files in os.walk('my_project'):
     for file in files:
         key_dict = os.stat(os.path.join(root, file)).st_size // 10 * 10 + 10
         f_ext=file.rsplit('.')[-1]
